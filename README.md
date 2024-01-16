@@ -1,53 +1,61 @@
-# DEX on TON: First version for testing (alpha/beta)
+# DEX on TON: First Version for Testing (Alpha/Beta)
 
-## Обзор репозитория
+## Repository Overview
 
-Этот репозиторий GitHub посвящен бэкенд-сервисам DEX и охватывает два ключевых компонента: DEX Pair Alpha Beta и DEX TON Smart-Contracts. Это центральное место для разработчиков и участников, занимающихся созданием и поддержкой бэкенд-инфраструктуры платформы децентрализованного обмена Web3.
+This GitHub repository is dedicated to the backend services of DEX and encompasses two key components: DEX Pair Alpha Beta and DEX TON Smart-Contracts. It serves as the central hub for developers and contributors involved in building and maintaining the backend infrastructure for a Web3 decentralized exchange platform on the TON blockchain.
 
-## Компоненты
+## Components Overview
 
 ### 1. [DEX Pair Alpha Beta](https://github.com/TegroTON/DEX-pair-alpha-beta)
 
-- **Описание:** Этот компонент отвечает за основные функции децентрализованного обмена, в частности за работу торговых пар Alpha и Beta. Включает алгоритмы сопоставления заказов, выполнения торгов и управления ликвидностью.
-- **Используемые технологии:** Node.js, Python, Solidity (для интеграции смарт-контрактов), системы управления базами данных.
-- **Основные функции:** 
-   - Эффективный алгоритм сопоставления заказов
-   - Мгновенное выполнение торгов
-   - Управление пулом ликвидности
-   - Интеграция с фронтенд-сервисами
+- **Description:**
+  - This component is responsible for the core functionalities of decentralized exchange, particularly handling the operations of Alpha and Beta trading pairs. It includes algorithms for order matching, trade execution, and liquidity management.
+- **Technologies Used:**
+  - Node.js, Python, Solidity (for smart contract integration), database management systems.
+- **Key Features:**
+  - Efficient order matching algorithm
+  - Instant trade execution
+  - Liquidity pool management
+  - Integration with frontend services
 
 ### 2. [DEX TON Smart-Contracts](https://github.com/TegroTON/DEX-TON-contracts)
 
-- **Описание:** Эта секция посвящена разработке и поддержке смарт-контрактов на блокчейне TON для платформы DEX. Охватывает создание, развертывание и обновление смарт-контрактов, которые управляют транзакциями и взаимодействиями на бирже.
-- **Используемые технологии:** Solidity, компилятор Solidity TON, инструменты блокчейна TON.
-- **Основные функции:** 
-   - Безопасные и автоматизированные расчеты по сделкам
-   - Функциональность обмена токенов
-   - Механизмы предоставления ликвидности и вознаграждений
-   - Соответствие стандартам блокчейна TON
+- **Description:**
+  - This section is dedicated to the development and maintenance of smart contracts on the TON blockchain for the DEX platform. It covers the creation, deployment, and updating of smart contracts that manage transactions and interactions on the exchange.
+- **Technologies Used:**
+  - Solidity, TON Solidity compiler, TON blockchain tools.
+- **Key Features:**
+  - Secure and automated settlement of trades
+  - Token exchange functionality
+  - Liquidity provision and reward mechanisms
+  - Compliance with TON blockchain standards
 
-## Руководство по сотрудничеству
+## Collaboration Guide
 
-- **Политика вкладов:** Мы приветствуем вклад сообщества. Пожалуйста, ознакомьтесь с файлом CONTRIBUTING.md для получения инструкций о том, как внести свой вклад.
-- **Стандарты кода:** Все вклады должны соответствовать стандартам кодирования, указанным в репозитории.
-- **Отслеживание проблем:** Используйте проблемы GitHub для сообщения о ошибках, запросах функций или обсуждении задач.
-- **Запросы на слияние:** Все запросы на слияние должны быть направлены в ветку 'develop' и должны пройти все автоматические тесты.
+- **Contribution Policy:**
+  - We welcome community contributions. Please refer to the CONTRIBUTING.md file for instructions on how to contribute.
+- **Coding Standards:**
+  - All contributions must adhere to the coding standards specified in the repository.
+- **Issue Tracking:**
+  - Use GitHub issues to report bugs, feature requests, or discuss tasks.
+- **Pull Request Process:**
+  - All pull requests should be directed to the 'develop' branch and must pass all automated tests.
 
-## Установка и настройка
+## Installation and Setup
 
-- Подробные инструкции по настройке локальной среды разработки представлены в файле INSTALL.md.
+- Detailed instructions for setting up a local development environment are provided in the INSTALL.md file.
 
-## Документация
+## Documentation
 
-- Полная документация для DEX Pair Alpha Beta и DEX TON Smart-Contracts доступна в папке Docs. Это включает в себя документацию API,
+- Comprehensive documentation for DEX Pair Alpha Beta and DEX TON Smart-Contracts is available in the Docs folder. This includes API documentation, smart contract details, and usage examples.
 
- подробности смарт-контрактов и примеры использования.
+## Community and Support
 
-## Сообщество и поддержка
+- **Discussion and Support:**
+  - Join our community on Discord/Telegram for discussions and support. If you have questions or suggestions, please file an Issue.
+- **Reporting Issues:**
+  - For reporting security issues, please refer to the SECURITY.md file.
 
-- **Обсуждение и поддержка:** Присоединяйтесь к нашему сообществу в Discord/Telegram для обсуждения и поддержки. Если у вас есть вопросы или предложения, пожалуйста, напишите [Issue](https://github.com/TegroTON/.github/issues/new/choose).
-- **Сообщение о проблемах:** Для сообщения о проблемах безопасности, пожалуйста, ознакомьтесь с файлом SECURITY.md.
+## Licensing
 
-## Лицензия
-
-- Код в этом репозитории лицензирован в соответствии с лицензией MIT. Подробности см. в файле LICENSE.
+- The code in this repository is licensed under the MIT License. For more details, see the LICENSE file. This license allows for widespread use and modification, ensuring flexibility and openness in development.
